@@ -1,0 +1,39 @@
+
+.main-cont {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr; /* 12 колонок, но проще через fr */
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Левая и правая панели */
+.left-bar,
+.right-bar {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.left-bar section,
+.right-bar section {
+    margin-bottom: 1.5rem;
+}
+
+.left-bar h2,
+.right-bar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.3rem;
+}
+
+.left-bar p,
+.right-bar p {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
