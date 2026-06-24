@@ -37,3 +37,9 @@
     color: #555;
 }
 
+@media (max-width: 900px) {
+    .main-cont {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
